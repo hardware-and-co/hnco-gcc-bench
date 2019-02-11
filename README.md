@@ -8,19 +8,19 @@ Benchmark de compilation utilisé pour les tests CPU du [Comptoir du Hardware](h
 
 ## Sortie
 Lire les dernières lignes produites par la commande, de format :
-real    XmXXXXXXs
-user    XmXXXXXXs
-sys     XmXXXXXXs
+	real    XmXXXXXXs
+	user    XmXXXXXXs
+	sys     XmXXXXXXs
 
 ## Dépendances
 Si APT est votre gestionnaire de paquet, il est nécessaire d'avoir les paquets suivants :
 `subversion gcc flex libgmp-dev libmpc-dev libmpfr-dev`
 
 ## Note
-	- La sortie est en temps real/user/sys, avec :
-		* real : temps de compilation.
-		* user : somme sur tous les threads des temps passé dans le programme en mode utilisateur.
-		* sys : somme sur tous les threads du temps passé en mode noyaux (pour les appels systèmes).
+- La sortie est en temps real/user/sys, avec :
+	- real : temps de compilation.
+	- user : somme sur tous les threads des temps passé dans le programme en mode utilisateur.
+	- sys : somme sur tous les threads du temps passé en mode noyaux (pour les appels systèmes).
 
 Copyright © 2000 Nicolas Derumigny <nd@comptoir-hardware.com>.
 This work is free. You can redistribute it and/or modify it under the
