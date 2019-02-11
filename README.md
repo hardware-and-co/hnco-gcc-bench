@@ -4,7 +4,7 @@ Comptoir du Hardware - Benchmark compilation GCC 8.2
 Benchmark de compilation utilisé pour les tests CPU du [Comptoir du Hardware](http://www.comptoir-hardware.com/). Clone, configure, lance une compilation de GCC 8.2 et affiche le temps d'exécution de la compilation.
 
 ## Utilisation
-./bench-gcc
+`./bench-gcc`
 
 ## Sortie
 Lire les dernières lignes de sorties, de format :
