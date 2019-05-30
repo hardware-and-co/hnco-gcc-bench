@@ -4,9 +4,11 @@ if [ "$1" == "" ]; then
 else
 	NB_THREADS=$1
 fi
-svn co svn://gcc.gnu.org/svn/gcc/tags/gcc_8_2_0_release gcc
+if [ ! -d gcc ]; then
+	svn co svn://gcc.gnu.org/svn/gcc/tags/gcc_8_2_0_release gcc
+fi
 cd gcc
-mkdir build
+mkdir build 2>&1 >/dev/null
 cd build
 rm -rf *
 ../configure --target=x86_64-linux-gnu --disable-multilib
