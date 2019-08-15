@@ -8,7 +8,7 @@ else
 fi
 cd $DIR
 if [ ! -d gcc ]; then
-	svn co svn://gcc.gnu.org/svn/gcc/tags/gcc_8_2_0_release gcc
+	svn co svn://gcc.gnu.org/svn/gcc/tags/gcc_9_1_0_release gcc
 fi
 cd gcc
 if [ ! -d build ]; then
