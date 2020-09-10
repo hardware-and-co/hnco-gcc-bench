@@ -1,7 +1,7 @@
-Comptoir du Hardware - Benchmark compilation GCC 9.1
+Comptoir du Hardware - Benchmark compilation GCC 9.3
 ====================================================
 
-Benchmark de compilation utilisé pour les tests CPU du [Comptoir du Hardware](http://www.comptoir-hardware.com/). Clone, configure, lance une compilation de GCC 9.1 et affiche le temps d'exécution de la compilation.
+Benchmark de compilation utilisé pour les tests CPU du [Comptoir du Hardware](http://www.comptoir-hardware.com/). Clone, configure, lance une compilation de GCC 9.3 et affiche le temps d'exécution de la compilation.
 
 ## Utilisation
 `./bench.sh`
@@ -14,7 +14,7 @@ Lire les dernières lignes produites par la commande, de format :
 
 ## Dépendances
 Si APT est votre gestionnaire de paquet, il est nécessaire d'avoir les paquets suivants :
-`subversion gcc flex libgmp-dev libmpc-dev libmpfr-dev`
+`git gfortran gcc flex libgmp-dev libmpc-dev libmpfr-dev`
 
 ## Note
 - La sortie est en temps real/user/sys, avec :
