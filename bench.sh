@@ -9,7 +9,7 @@ else
 fi
 cd $DIR
 if [ ! -d gcc ]; then
-	git clone --branch releases/gcc-9.3.0 --depth 1 git://gcc.gnu.org/git/gcc.git
+	git clone --branch releases/gcc-11.2.0 --depth 1 git://gcc.gnu.org/git/gcc.git
 fi
 cd -
 cd $DIR/gcc
