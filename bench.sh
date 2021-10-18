@@ -21,5 +21,5 @@ cd $DIR/gcc/build
 rm -rf *
 ../configure --target=x86_64-linux-gnu --disable-multilib
 make clean
-time make -j$NB_THREADS
+/bin/time -p make -j$NB_THREADS
 cd -
