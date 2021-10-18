@@ -1,5 +1,5 @@
-Comptoir du Hardware - Benchmark compilation GCC 9.3
-====================================================
+Comptoir du Hardware - Benchmark compilation GCC 11.2.0
+=======================================================
 
 Benchmark de compilation utilisé pour les tests CPU du [Comptoir du Hardware](http://www.comptoir-hardware.com/). Clone, configure, lance une compilation de GCC 11.2.0 et affiche le temps d'exécution de la compilation.
 
