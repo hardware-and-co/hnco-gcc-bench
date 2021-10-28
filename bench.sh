@@ -15,10 +15,12 @@ cd -
 cd $DIR/gcc
 if [ ! -d build ]; then
   mkdir build
+else
+  rm -rf build
+  mkdir build
 fi
 cd -
 cd $DIR/gcc/build
-rm -rf *
 ../configure --target=x86_64-linux-gnu --disable-multilib
 make clean
 /bin/time -p make -j$NB_THREADS
